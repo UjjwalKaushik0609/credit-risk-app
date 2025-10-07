@@ -59,7 +59,7 @@ For example:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/credit-approval-predictor.git
+   git clone https://github.com/UjjwalKaushik0609/credit-risk-app
    cd credit-risk-app
    ```
 
