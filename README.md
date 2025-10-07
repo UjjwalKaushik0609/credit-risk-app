@@ -60,7 +60,7 @@ For example:
 
    ```bash
    git clone https://github.com/your-username/credit-approval-predictor.git
-   cd credit-approval-predictor
+   cd credit-risk-app
    ```
 
 2. **Install dependencies**
