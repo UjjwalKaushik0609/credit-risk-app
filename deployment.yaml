@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: credit-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: credit-app
+  template:
+    metadata:
+      labels:
+        app: credit-app
+    spec:
+      containers:
+      - name: credit-app
+        image: <ECR-IMAGE-URI>:latest
+        ports:
+        - containerPort: 8501
